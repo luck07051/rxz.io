@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <meta charset="Big5">
-    <title>ªı§Ü¨ÃÁp</title>
+    <meta charset="UTF-8">
+    <title>é›»é˜»ä¸¦è¯</title>
 </head>
 
 <body>
     R:<input id='R' value='0'> X:<input id='X' value='0'>
-    <button onclick='f1()'>¿é¤J</button>
+    <button onclick='f1()'>è¼¸å…¥</button>
 
 
     <p id='ans'>Z=</p>
@@ -20,7 +20,7 @@
             inx = document.getElementById("R").value;
             iny = document.getElementById("X").value;
 
-            //¹Bºâ
+            //è¨ˆç®—
             if (typeof zx == 'undefined') {
                 zx = inx;
                 zy = iny;
@@ -34,18 +34,18 @@
                 zy = (muly * addx - mulx * addy) / A;
             }
 
-            //Åã¥Ü
+            //é¡¯ç¤º
             var text = 'Z=';
-            //§¤¼Ğ
+            //åæ¨™
             if (zy > 0)
-                text += zx + '+j' + zy + '£[';
+                text += zx + '+j' + zy + 'Î©';
             else if (zy < 0)
-                text += zx + '-j' + zy * -1 + '£[';
+                text += zx + '-j' + zy * -1 + 'Î©';
             else
-                text += zx + '£[';
-            //¦V¶q
+                text += zx + 'Î©';
+            //å‘é‡
             if (zy != 0) {
-                text += '<br>=' + Math.sqrt(zx * zx + zy * zy) + '¡ç' + Math.atan2(zy, zx) * 180 / Math.PI + '¢X';
+                text += '<br>=' + Math.sqrt(zx * zx + zy * zy) + 'âˆ ' + Math.atan2(zy, zx) * 180 / Math.PI + 'Â°';
             }
             document.getElementById("ans").innerHTML = text;
             return;
