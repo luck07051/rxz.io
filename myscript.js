@@ -57,7 +57,7 @@ function next() {
         document.getElementById('outZ').innerHTML += '<tr><td>#' + outTimes + '</td><td>' + outtext + '</td></tr>';
 
         //reset
-        document.getElementById('inZ').innerHTML = '<th>輸入的電抗</th>';
+        document.getElementById('inZ').innerHTML = '<th>輸入</th>';
         document.getElementById("ans").innerHTML = 'Z=';
         inTimes = 0;
         zx = undefined;
