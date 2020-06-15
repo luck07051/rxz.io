@@ -6,6 +6,9 @@ function main() {
     //input
     inx = document.getElementById("R").value;
     iny = document.getElementById("X").value;
+    document.getElementById("R").value='';
+    document.getElementById("X").value='';
+
 
     //輸入的電抗顯示
     var text;
