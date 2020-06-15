@@ -7,7 +7,7 @@ function main() {
     inx = document.getElementById("R").value;
     iny = document.getElementById("X").value;
     document.getElementById("R").innerHTML='';
-    document.getElementById("X").innerHEML='';
+    document.getElementById("X").innerHTML='';
 
     //輸入的電抗顯示
     var text;
