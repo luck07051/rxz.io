@@ -1,6 +1,8 @@
 var zx, zy, inx, iny, textr, texte;
 var inTimes = 0,
     outTimes = 0;
+document.getElementById("R").innerHTML='';
+document.getElementById("X").innerHEML='';
 
 function main() {
     //input
