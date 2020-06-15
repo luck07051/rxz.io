@@ -9,7 +9,6 @@ function main() {
     document.getElementById("R").innerHTML='';
     document.getElementById("X").innerHEML='';
 
-
     //輸入的電抗顯示
     var text;
     inTimes++;
