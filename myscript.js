@@ -6,8 +6,8 @@ function main() {
     //input
     inx = document.getElementById("R").value;
     iny = document.getElementById("X").value;
-    document.getElementById("R").value='';
-    document.getElementById("X").value='';
+    document.getElementById("R").innerHTML='';
+    document.getElementById("X").innerHEML='';
 
 
     //輸入的電抗顯示
